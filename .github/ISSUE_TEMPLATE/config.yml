@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Sensitive security report
+    url: https://github.com/bhattiasad99/agentic_ai_frameworks_guide/security
+    about: Please do not disclose exploitable or private information in a public issue.

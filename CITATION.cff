@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If this guide supports your research, training, or article, please cite it."
+title: "AI-Driven Development Frameworks: A Practical Roadmap for Agentic Coding"
+type: software
+authors:
+  - family-names: Bhatti
+    given-names: Asad Zubair
+repository-code: "https://github.com/bhattiasad99/agentic_ai_frameworks_guide"
+url: "https://github.com/bhattiasad99/agentic_ai_frameworks_guide"
+license: MIT
+version: 0.1.0
+date-released: 2026-08-18
+keywords:
+  - AI-driven development
+  - agentic coding
+  - AI coding agents
+  - spec-driven development
+  - context engineering

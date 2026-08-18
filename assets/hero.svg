@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">AI-Driven Development Frameworks</title>
+  <desc id="desc">A practical roadmap for building reliable software with coding agents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.52" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#18203b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="980" cy="78" r="110" fill="#6366f1" opacity=".16" filter="url(#glow)"/>
+  <circle cx="170" cy="365" r="130" fill="#06b6d4" opacity=".12" filter="url(#glow)"/>
+  <g fill="none" stroke="#8be9fd" stroke-opacity=".26" stroke-width="2">
+    <path d="M78 90h130l54 54h117"/><path d="M842 92h112l58 58h110"/>
+    <path d="M72 329h126l46-46h120"/><path d="M870 325h110l42-42h104"/>
+  </g>
+  <g fill="#c4b5fd">
+    <circle cx="78" cy="90" r="5"/><circle cx="379" cy="144" r="5"/><circle cx="842" cy="92" r="5"/><circle cx="1122" cy="150" r="5"/>
+    <circle cx="72" cy="329" r="5"/><circle cx="364" cy="283" r="5"/><circle cx="870" cy="325" r="5"/><circle cx="1126" cy="283" r="5"/>
+  </g>
+  <rect x="74" y="52" width="260" height="34" rx="17" fill="#ffffff" opacity=".08"/>
+  <text x="204" y="75" text-anchor="middle" fill="#bae6fd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">LEARN • CHOOSE • SHIP</text>
+  <text x="600" y="184" text-anchor="middle" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="800">AI-Driven Development</text>
+  <text x="600" y="250" text-anchor="middle" fill="url(#accent)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="800">Frameworks</text>
+  <text x="600" y="306" text-anchor="middle" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">A practical roadmap for building reliable software with coding agents</text>
+  <g transform="translate(408 340)">
+    <rect width="118" height="34" rx="17" fill="#22d3ee" opacity=".15"/><text x="59" y="23" text-anchor="middle" fill="#a5f3fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">CONTEXT</text>
+    <rect x="132" width="118" height="34" rx="17" fill="#818cf8" opacity=".17"/><text x="191" y="23" text-anchor="middle" fill="#c7d2fe" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">SPECS</text>
+    <rect x="264" width="118" height="34" rx="17" fill="#f472b6" opacity=".15"/><text x="323" y="23" text-anchor="middle" fill="#fbcfe8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">VERIFY</text>
+  </g>
+</svg>

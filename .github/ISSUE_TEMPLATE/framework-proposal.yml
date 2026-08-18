@@ -1,0 +1,49 @@
+name: Framework proposal
+description: Propose a distinct AI-driven development framework for inclusion
+title: "[Framework]: "
+labels: [framework-proposal]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep the guide useful and focused. Popularity alone is not an inclusion criterion.
+  - type: input
+    id: repository
+    attributes:
+      label: Official repository
+      placeholder: https://github.com/owner/project
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem solved
+      description: Which recurring AI-development failure does it address?
+    validations:
+      required: true
+  - type: textarea
+    id: difference
+    attributes:
+      label: Material difference
+      description: How is it different from frameworks already listed?
+    validations:
+      required: true
+  - type: textarea
+    id: starter
+    attributes:
+      label: Verified starter workflow
+      description: Include prerequisites, commands, first action, tool, OS, and official sources.
+    validations:
+      required: true
+  - type: textarea
+    id: avoid
+    attributes:
+      label: When not to use it
+    validations:
+      required: true
+  - type: input
+    id: affiliation
+    attributes:
+      label: Affiliation
+      description: State None or disclose your relationship to the project.
+    validations:
+      required: true

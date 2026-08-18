@@ -1,0 +1,40 @@
+name: Documentation correction
+description: Report an outdated command, broken link, inaccurate claim, or unclear explanation
+title: "[Correction]: "
+labels: [documentation]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      placeholder: docs/frameworks/example.md
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: What is incorrect or unclear?
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: First-party source
+      placeholder: https://github.com/owner/project/blob/main/README.md
+    validations:
+      required: true
+  - type: dropdown
+    id: tested
+    attributes:
+      label: Did you test the corrected workflow?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
